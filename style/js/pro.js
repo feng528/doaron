@@ -1,0 +1,1 @@
+$(function(){$(".jqzoom").jqzoom({title:false,zoomWidth:590,zoomHeight:376,xOffset:4});$(".prob-pic-item a").click(function(i){i.preventDefault();var o=$(this),t=$(".jqzoom .img"),a=o.children("img");t.attr("src",a.data("src"));o.addClass("active").parents("li").siblings().find("a").removeClass("active")});$(".prob-pic-small").DY_scroll();$(".m-repro").DY_scroll()});
